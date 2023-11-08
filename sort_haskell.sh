@@ -12,7 +12,7 @@ process_files() {
 
 export -f process_files
 
-find stackage -mindepth 1 -maxdepth 1 -type d -print0 \
+find travis -mindepth 1 -maxdepth 1 -type d -print0 \
 | xargs -0 -I{} bash -c 'process_files "$@"' _ {} \
 | sort \
 | uniq -c \
