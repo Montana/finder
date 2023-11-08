@@ -3,6 +3,6 @@ language: haskell
 script: 
   - chmod +x ./sort_haskell.sh 
   - ./sort_haskell.sh
-  - apt-get install haskell-stack
+  - sudo apt-get install haskell-stack
   - stack ghc --version
 install: skip
