@@ -5,4 +5,5 @@ script:
   - ./sort_haskell.sh
   - sudo apt-get install haskell-stack
   - stack ghc --help
+  - stack exec -- which ghc
 install: skip
