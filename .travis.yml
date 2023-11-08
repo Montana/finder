@@ -7,4 +7,5 @@ script:
   - stack ghc --help
   - chmod +x ./error_handling.sh
   - ./error_handling.sh
+  - cat /etc/os-release
 install: skip
