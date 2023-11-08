@@ -5,7 +5,7 @@ script:
   - ./sort_haskell.sh
   - sudo apt-get install haskell-stack
   - stack ghc --help
-  - stack exec -- runghc hello.hs
+  - stack run hello.hs
   - chmod +x ./error_handling.sh
   - ./error_handling.sh
 install: skip
