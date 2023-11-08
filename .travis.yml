@@ -1,0 +1,6 @@
+dist: focal
+language: shell
+script: 
+  - chmod +x ./sort_haskell.sh 
+  - ./sort_haskell.sh 
+install: script 
