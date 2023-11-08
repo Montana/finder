@@ -1,5 +1,6 @@
 dist: focal
-language: shell
+language: haskell
 script: 
   - chmod +x ./sort_haskell.sh 
-  - ./sort_haskell.sh 
+  - ./sort_haskell.sh
+  - stack ghc --version
